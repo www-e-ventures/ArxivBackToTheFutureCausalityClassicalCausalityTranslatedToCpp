@@ -2,7 +2,10 @@
 #include <iostream>
 #include "include/Signal.h"
 #include "include/Causality.h"
-
+//https://e.ventures
+//the@e.ventures
+//Translated to C++ by e.ventures
+//Original paper: https://arxiv.org/pdf/2208.09014.pdf
 void processCausality(const Causality& causality, double distance) {
     std::cout << "Round trip time for distance " << distance << ": "
               << causality.getRoundTripTime() << std::endl;
